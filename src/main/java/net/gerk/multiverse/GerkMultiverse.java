@@ -7,16 +7,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
-// getString(ctx, "string")
-import static com.mojang.brigadier.arguments.StringArgumentType.getString;
-// word()
-import static com.mojang.brigadier.arguments.StringArgumentType.word;
-// literal("foo")
-import static net.minecraft.server.command.CommandManager.literal;
-// argument("bar", word())
-import static net.minecraft.server.command.CommandManager.argument;
-// Import everything
-import static net.minecraft.server.command.CommandManager.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
