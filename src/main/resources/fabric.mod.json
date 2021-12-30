@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "gerk-multiverse",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Gerk's multiverse manager",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
